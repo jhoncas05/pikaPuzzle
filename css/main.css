@@ -1,0 +1,39 @@
+/*Hoja de estilos*/
+#entorno{
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    height: 600px;
+    
+}
+
+/* #target{
+    width: 400px;
+    height: 400px;
+    
+    left: 200;
+    top: 100;
+} */
+/* .pieces{
+    position: absolute;
+} */
+.pieces {
+    display: inline-block;
+    /* background-color: #ccc;
+    border: 1px solid #000; */
+    cursor: move;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+.target {
+    width: 400px;
+    height: 400px;
+    border: 2px solid #000;
+    opacity: 0.3;
+    position: static;
+    /* left: 200;
+    top: 100; */
+  }
+
